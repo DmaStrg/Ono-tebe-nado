@@ -40,17 +40,18 @@
   line-height: 24px;
 }
 
-.cover {  /* фон */
+.cover {
   position: relative;
-  height: 757px;
+  max-height: 757px;
   background: url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.overlay { /* темная подложка */
+.overlay {
   position: absolute;
+  he
   top: 0;
   left: 0;
   width: 100%;
@@ -60,36 +61,53 @@
 
 .cover_title { 
   position: relative;
-  text-align: left;
   padding: 165px 50px 237px 50px;
+  text-align: left;
 }
 
 .accent-span {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 7px;
   color: #fff;
   font-size: 100px;
 }
 
-.first-letter {
-  letter-spacing: 30px;
+.aligned-text {
+  text-align: left;
 }
 
-.second-letter {
-  letter-spacing: 60px;
+.letter-spacing-extended_1 {
+  letter-spacing: 28px;
 }
 
-.third-letter {
-  letter-spacing: 0;
+.no-letter-spacing_1 {
+  margin-left: 11px;
 }
 
-.text-center {
+.aligned-text_center {
+  margin-right: 60px;
   text-align: center;
-  letter-spacing: 40px;
 }
 
-.text-right {
+.letter-spacing-extended_2 {
+  letter-spacing: 31px;
+}
+
+.aligned-text_right {
+  margin-right: -35px;
   text-align: right;
-  letter-spacing: 30px;
 }
 
+.letter-spacing-extended_3 {
+  letter-spacing: 32.5px;
+}
+
+.no-letter-spacing_3 {
+  margin-right: 30px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  text-transform: uppercase;
+  color:#fff
+}

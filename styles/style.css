@@ -4,35 +4,46 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 93px 24px 94px;
+  padding: 94px 24px;
 }
 
 .header_menu-list {
-  display: flex;
+  display: flex; 
+  align-items: center;
   font-size: 18px;
   list-style-type: none;
 }
 
 .header_menu-item_active {
-  padding: 44px 36px 39px 26.5px;
+  padding-left: 26.5px;
+}
+
+.circle {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  vertical-align: middle;
+  background-color: transparent;
 }
 
 .special-list-item {
-  padding-left: 7px;
-  list-style-type: circle;
+  margin-left: -13px;
 }
 
 .header_logo {
+  margin-right: 147px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 148px;
+  width: 140px;
   height: 105px;
 }
 
 .adress {
-  width: 240.52px;
-  margin-left: 184px;
+  margin-right: 63px;
   font-size: 18px;
   line-height: 24px;
 }
@@ -40,6 +51,7 @@
 .cover {
   position: relative;
   z-index: -2;
+  display: block;
   height: 757px;
   background: url('../images/cover.jpg');
   background-repeat: no-repeat;
@@ -101,11 +113,11 @@
 }
 
 .letter-spacing-extended_3 {
-  letter-spacing: 32px;
+  letter-spacing: 31px;
 }
 
 .no-letter-spacing_3 {
-  margin-right: 30px;
+  margin-right: 36px;
 }
 
 .cover__description {

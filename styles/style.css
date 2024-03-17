@@ -169,8 +169,8 @@
 .card__content {
   display: flex;
   flex-direction: column;
-  padding: 51px 40px 0; /* Отступы сверху и снизу */
-  height: 100%; /* Растягиваем содержимое карточки на всю высоту */
+  padding: 51px 40px 0;
+  height: 100%;
 }
 
 .card__title {
@@ -181,9 +181,9 @@
 
 .card__text {
   font-size: 20px;
-  margin-top: auto; /* Отталкиваем текст к нижней границе .card__content */
-  margin-bottom: 48px; /* Отступ от текста до нижней границы .card__content */
-  position: relative; /* Добавляем позиционирование */
+  margin-top: auto;
+  margin-bottom: 48px;
+  position: relative;
   line-height: 24px;
 }
 

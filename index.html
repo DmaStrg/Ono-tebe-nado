@@ -12,55 +12,54 @@
 <body>
   <header class="header">
     <nav class="header_menu">
-      <ul class="header_menu-list">
-        <li class="header_menu-item header_menu-item_active">
-          <a class="header_menu_link">главная</a>
+      <ul class="header-list">
+        <li class="header-item ">
+          <a class="header-link" href="#0">главная</a>
         </li>
-        <li class="header_menu-item header_menu-item_active special-list-item">
-          <span class="circle"></span>
-          <a class="header_menu_link" href="#lots" style="text-decoration: none; border-bottom: 1px solid black">посмотреть лоты</a>
+        <li class="header-item active">
+          <a class="header-link active" href="#0">посмотреть лоты</a>
         </li>
-        <li class="header_menu-item header_menu-item_active special-list-item">
-          <span class="circle"></span>
-          <a class="header_menu_link" href="#about" style="text-decoration: none; border-bottom: 1px solid black">об аукционе</a>
+        <li class="header-item active">
+          <a class="header-link active" href="#0">об аукционе</a>
         </li>
       </ul>
     </nav>
     <a class="header_logo">
       <img class="header_logo-image" src="./images/logo-black.svg" alt="Логотип">
     </a>
-    <div class="adress">
-      <p><a href="tel:+99995555555" style="text-decoration: none; border-bottom: 1px solid black">+9 999 555 5555</a></p>
-      <p><a href="mailto:info@sobaka.ge" style="text-decoration: none; border-bottom: 1px solid black">info@sobaka.ge</a></p>
+    <address class="address">
+      <a href="tel:+99995555555">+9 999 555 5555</a><br>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
       <p>наб. Принсенграхт 263-</p>
       <p>265, Амстердам</p>
-    </div>
+    </address>
   </header>
+  <main>
   <section class="cover">
     <div class="overlay"></div>
     <div class="cover__content">
       <h1 class="cover_title">
         <span class="accent-span aligned-text">
-          <span class="letter-spacing-extended_1">ОН</span>
-          <span class="no-letter-spacing_1">О</span>
+          <span class="letter-spacing-extended">он</span>
+          <span class="no-letter-spacing_left">о</span>
         </span>
         <span class="accent-span aligned-text_center">
-          <span class="letter-spacing-extended_2">TEБ</span>
-          <span class="no-letter-spacing_2">E</span>
+          <span class="letter-spacing-extended">теб</span>
+          <span class="no-letter-spacing_center">е</span>
         </span>
         <span class="accent-span aligned-text_right">
-          <span class="no-letter-spacing_3">Н</span>
-          <span class="letter-spacing-extended_3">АДО</span>
+          <span class="no-letter-spacing_right">н</span>
+          <span class="letter-spacing-extended">адо</span>
         </span>
       </h1>
-      <h2 class="cover__description">
-        <span class="description-text">Аукцион вещей, в которые никто не верил</span>
-        <button class="bet-button">Сделать ставку</button>
-      </h2>
+      <div class="cover__description">
+        <p class="description-text">аукцион вещей, в которые никто не верил</p>
+        <button class="bet-button">сделать ставку</button>
+      </div>
     </div>
   </section>
   <section class="lots">
-    <h2 class="lots__heading">ЛОТЫ</h2>
+    <h2 class="lots__heading">лоты</h2>
     <div class="lots__card-list">
       <div class="card card_type_film">
         <div class="overlay"></div>
@@ -90,7 +89,7 @@
         </div>
       </div>
     </div>
-    <a class="lots__look-more-link" href="#" style="text-decoration: none; border-bottom: 1px solid black" >Посмотреть больше</a>
+    <a class="lots__look-more-link" href="#">Посмотреть больше</a>
   </section>
   <section class="about">
     <div class="about-grid">
@@ -105,18 +104,19 @@
       </div>
     </div>
   </section>
+  </main>
   <footer class="footer">
     <div class="footer_adress">
-      <p><a href="tel:+99999555555" style="text-decoration: none; border-bottom: 1px solid black">+9 999 555 5555</a></p>
-      <p><a href="mailto:info@sobaka.ge" style="text-decoration: none; border-bottom: 1px solid black">info@sobaka.ge</a></p>
+      <p><a href="tel:+99999555555">+9 999 555 5555</a></p>
+      <p><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
       <p>наб. Принсенграхт 263-</p>
       <p>265, Амстердам</p>
     </div>
     <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">главная</li>
-          <li class="footer__menu-list-item"><a href="#lots" style="text-decoration: none; border-bottom: 1px solid black">посмотреть лоты</a></li>
-          <li class="footer__menu-list-item"><a href="#about" style="text-decoration: none; border-bottom: 1px solid black">об аукционе</a></li>
+          <li class="footer__menu-list-item"><a href="#0">посмотреть лоты</a></li>
+          <li class="footer__menu-list-item"><a href="#0">об аукционе</a></li>
         </ul>
     </nav>
     <ul class="footer__social-link">

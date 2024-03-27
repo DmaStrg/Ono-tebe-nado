@@ -44,6 +44,7 @@
 .address {
   margin-right: 63px;
   font-size: 18px;
+  font-style: normal;
   line-height: 24px;
   text-decoration: none;
 }
@@ -178,12 +179,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 334px;
   height: 563px;
-  padding: 49px 40px 0 40px;
+  margin: auto;
 }
 
 .card__title {
-  width: 254px;
+  padding: 51px 40px 0;
   font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
@@ -196,9 +198,9 @@
 
 .card__text {
   position: relative;
-  width: 254px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
+  padding: 0 40px;
   font-size: 20px;
   line-height: 24px;
 }
@@ -234,7 +236,7 @@
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: flex-start;
-  gap: 20px;
+  
 }
 
 .about__logo {
@@ -266,7 +268,6 @@
 .about__title {
   display: flex;
   margin-top: 100px;
-  margin-left: -18px;
   font-size: 40px;
   text-transform: uppercase;
 }
@@ -275,21 +276,22 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-  margin-left: -18px;
   font-size: 20px;
   line-height: 24px;
-  word-spacing: 0.4px;
+  word-spacing: 0.9px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 88px;
   font-size: 18px;
 }
 
 .footer_adress {
   margin: 2px 0 0 51px;
+  font-style: normal;
   line-height: 24.3px;
 }
 
